@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
